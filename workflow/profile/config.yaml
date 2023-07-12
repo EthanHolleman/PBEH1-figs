@@ -11,7 +11,7 @@ cluster:
     --mem={resources.mem_mb}
     --job-name=smk-{rule}-{wildcards}
     --output=logs/{rule}/{rule}-{wildcards}-%j.out
-    --time 00:35:00
+    --time 04:00:00
 default-resources:
   - partition=high
   - mem_mb=2000

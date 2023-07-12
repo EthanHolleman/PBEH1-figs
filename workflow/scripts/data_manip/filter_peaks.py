@@ -64,6 +64,6 @@ if __name__ == "__main__":
         axis=1
     )
 
-    subset_samp_df.to_pickle(subset_samp_df.output[0])
+    subset_samp_df.to_pickle(snakemake.output[0])
 
 
