@@ -1,0 +1,7 @@
+include: "rules/read_peaks.smk"
+
+
+rule all:
+    input:
+        "output/peak_data/samplePeaksDataFrameFiltered.pd.pickle"
+

@@ -1,0 +1,7 @@
+.snakemake/
+logs/
+output/
+*.fa
+*.fastq
+*.pyc
+resources/PBEH1-data
